@@ -53,28 +53,25 @@ function imgReset() {
     // connected with time you can play
 }
 
-
-
 const btn = document.querySelectorAll('button')
 
 
-/**********Button*Clicked*Function*************/
+/**********Button*Clicked*Function*With*CSS***********/
 for (let index = 0; index < btn.length; index++) {
 
     btn[index].addEventListener('click', function (e) {
 
         btn[index].classList.toggle('button-clicked');
+
         // no icon inserted yet
 
         // btn[index].firstElementChild.classList.toggle('icon-clicked')
     })
-
 }
 
 
 
-/**************************************/
-
+/*****************MY THOUGHT*********************/
 // function three_numbers(x, y, z) {
 //     if (x === y && y === z) {
 //       return `Jackpot! you've won the game`;
@@ -90,7 +87,9 @@ for (let index = 0; index < btn.length; index++) {
 //   console.log(three_numbers(8, 8, 18));
 //   console.log(three_numbers(8, 7, 18));
 //////////////////////////////////////////////////
-// array[0]
+
+
+// FROM AMANDA -------array[0]
 // function three_numbers(array) {
 //     [num1, num2, num3] = [...array];
 //     if (num1 === num2 && num2 === num3) {
