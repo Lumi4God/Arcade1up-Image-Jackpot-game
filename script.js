@@ -64,7 +64,7 @@ function generator() {
   }
 }
 
-/***************Reset*Function*****************/
+/***********************Reset*Function*****************/
 function imgReset() {
   // document.getElementsById("divImage").reset();  
   document.getElementById("divImage").innerHTML = "";
@@ -110,7 +110,7 @@ function checker() {
 }
 
 
-/**********Button*Clicked*Function*With*CSS***********/
+/************Button*Clicked*Function*With*CSS*************/
 const btn = document.querySelectorAll('button')
 
 for (let index = 0; index < btn.length; index++) {
