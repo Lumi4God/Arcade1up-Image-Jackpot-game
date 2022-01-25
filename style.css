@@ -63,6 +63,11 @@ h1{
     position: relative;
     top: 10px;
     color: white;
+    /* font-family: 'Shojumaru', cursive; */
+    font-family: 'Bungee Shade', cursive;
+    font-size: 30px;
+    min-width: 20px;
+
 }
 /*div for the random images*/
 #divImage{
@@ -111,7 +116,7 @@ button::before{
     background-repeat: repeat-y;
     background-size: cover; */
 }
-/*the class was created thru Javascript*/
+/*the class was created in Javascript*/
 .button-clicked{
     background: linear-gradient(
         185deg, #131313, #444245
