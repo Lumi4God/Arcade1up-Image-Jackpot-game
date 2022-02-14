@@ -17,7 +17,7 @@ bleep4.src = 'audio/clap.mp3';
 var bleep7 = new Audio()
 bleep7.src = 'audio/coins-drop-1.mp3'
 
-// Sound on whenever two cards are the same
+// First sound on whenever two cards are the same
 var bleep5 = new Audio();
 bleep5.src = 'audio/oohhh.wav';
 // Second sound on whenever two cards are the same
@@ -68,8 +68,8 @@ function generator() {
 
       // getting the images thru the link
       document.getElementById("divImage").innerHTML += `
-            <img src="images/fruit${x}.jpeg" style="width: 230px; height: 300px; border-radius: 10%;">
-            `;
+            <img id="divImg" src="images/fruit${x}.jpeg" >
+            `; // style="width: 230px; height: 300px; border-radius: 10%;"
       arrayOfRandomNumbers.push(x);
     }
 
@@ -202,7 +202,6 @@ function flipCoin() {
 }
 
 flipButton.addEventListener('click', flipCoin);
-
 
 
 

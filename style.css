@@ -72,8 +72,7 @@ body{
   
   .heads {
       background-image: url("images/Bitcoin.png");
-  } /* https://en.numista.com/catalogue/photos/inde/2311-original.jpg */
-  /* https://en.numista.com/catalogue/photos/inde/3165-original.jpg */
+  } 
   
   .animate-heads {
     animation: flipHeads 3s;
@@ -155,13 +154,16 @@ h1{
     /* font-family: 'Shojumaru', cursive; */
     font-family: 'Bungee Shade', cursive;
     font-size: 30px;
-    min-width: 20px;
-
 }
 /*div for the random card-images*/
 #divImage{
     margin: 60px 0 0 50px; /*70*/
     /* object-fit: contain; */
+}
+#divImg{
+    width: 230px;
+    height: 300px;
+    border-radius: 10%;
 }
 
 
@@ -252,4 +254,883 @@ i{
 }
 .fa-tiktok{
     color: cadetblue;
+}
+
+/*responsiveness*/
+@media screen and (min-width: 1400px) and (max-width: 1700px){
+    .container{
+        width: 45em;
+    }
+    .container::before{
+        width: 50em;
+    }
+    h1{
+        font-size: 22px;
+    }
+    #divImage{
+        margin: 60px 0 0 50px;
+    }
+    #divImg{
+        width: 180px;
+        height: 250px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 190px;
+        position: absolute;
+        left: -340px;
+        top: 600px;
+    }
+    #myHand2{
+        width: 180px;
+        position: absolute;
+        left: -340px;
+        top: 600px;
+    }
+    #flip {
+        position: absolute;
+        top: 210px;
+        left: -300px;
+        padding: 10px;
+        width: 80px;
+        height: 40px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 0px;
+        left: -340px;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 25px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -170px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+    .container{
+        width: 40em;
+        height: 25em;
+    }
+    .container::before{
+        width: 45em;
+        height: 27em;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #divImage{
+        margin: 60px 0 0 30px;
+    }
+    #divImg{
+        width: 180px;
+        height: 250px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 190px;
+        position: absolute;
+        left: -280px;
+        top: 420px;
+    }
+    #myHand2{
+        width: 180px;
+        position: absolute;
+        left: -280px;
+        top: 420px;
+    }
+    #flip {
+        position: absolute;
+        top: 210px;
+        left: -240px;
+        padding: 10px;
+        width: 80px;
+        height: 40px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 0px;
+        left: -280px;
+        width: 10rem;
+        height: 10rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -100px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1199px){
+    .container{
+        width: 30em;
+        height: 25em;
+    }
+    .container::before{
+        width: 33em;
+        height: 26em;
+    }
+    h1{
+        font-size: 16px;
+    }
+    #divImage{
+        margin: 60px 0 0 25px;
+    }
+    #divImg{
+        width: 140px;
+        height: 230px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 110px;
+        position: absolute;
+        left: -150px;
+        top: 550px;
+    }
+    #myHand2{
+        width: 110px;
+        position: absolute;
+        left: -150px;
+        top: 550px;
+    }
+    #flip {
+        position: absolute;
+        top: 150px;
+        left: -130px;
+        padding: 10px;
+        width: 50px;
+        height: 30px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 0px;
+        left: -145px;
+        width: 5rem;
+        height: 5rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -100px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px){
+    .container{
+        width: 30em;
+        height: 25em;
+    }
+    .container::before{
+        width: 33em;
+        height: 26em;
+    }
+    h1{
+        font-size: 16px;
+    }
+    #divImage{
+        margin: 60px 0 0 25px;
+    }
+    #divImg{
+        width: 140px;
+        height: 230px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 110px;
+        position: absolute;
+        left: -150px;
+        top: 550px;
+    }
+    #myHand2{
+        width: 110px;
+        position: absolute;
+        left: -150px;
+        top: 550px;
+    }
+    #flip {
+        position: absolute;
+        top: 150px;
+        left: -130px;
+        padding: 10px;
+        width: 50px;
+        height: 30px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 0px;
+        left: -145px;
+        width: 5rem;
+        height: 5rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -100px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 700px) and (max-width: 799px){
+    .container{
+        width: 30em;
+        height: 25em;
+    }
+    .container::before{
+        width: 33em;
+        height: 26em;
+    }
+    h1{
+        font-size: 16px;
+    }
+    #divImage{
+        margin: 60px 0 0 25px;
+    }
+    #divImg{
+        width: 140px;
+        height: 230px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 110px;
+        position: absolute;
+        left: -120px;
+        top: 550px;
+    }
+    #myHand2{
+        width: 110px;
+        position: absolute;
+        left: -120px;
+        top: 550px;
+    }
+    #flip {
+        position: absolute;
+        top: 150px;
+        left: -95px;
+        padding: 10px;
+        width: 50px;
+        height: 30px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 0px;
+        left: -110px;
+        width: 5rem;
+        height: 5rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -80px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px){
+    .container{
+        width: 25em;
+        height: 20em;
+    }
+    .container::before{
+        width: 27em;
+        height: 21em;
+    }
+    h1{
+        font-size: 10px;
+    }
+    #divImage{
+        margin: 60px 0 0 25px;
+    }
+    #divImg{
+        width: 115px;
+        height: 210px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 90px;
+        position: absolute;
+        left: -110px;
+        top: 450px;
+    }
+    #myHand2{
+        width: 90px;
+        position: absolute;
+        left: -120px;
+        top: 450px;
+    }
+    #flip {
+        position: absolute;
+        top: 150px;
+        left: -95px;
+        padding: 5px;
+        width: 40px;
+        height: 25px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 30px;
+        left: -107px;
+        width: 4rem;
+        height: 4rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -70px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px){
+    .container{
+        width: 22em;
+        height: 17em;
+    }
+    .container::before{
+        width: 24em;
+        height: 19em;
+    }
+    h1{
+        font-size: 10px;
+    }
+    #divImage{
+        margin: 60px 0 0 25px;
+    }
+    #divImg{
+        width: 95px;
+        height: 160px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 90px;
+        position: absolute;
+        left: -110px;
+        top: 350px;
+    }
+    #myHand2{
+        width: 90px;
+        position: absolute;
+        left: -120px;
+        top: 350px;
+    }
+    #flip {
+        position: absolute;
+        top: 130px;
+        left: -72px;
+        padding: 5px;
+        width: 40px;
+        height: 25px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 20px;
+        left: -83px;
+        width: 4rem;
+        height: 4rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 6.25em;
+        height: 6.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -50px;
+        font-size: 20px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+    .container{
+        width: 17em;
+        height: 15em;
+    }
+    .container::before{
+        width: 18em;
+        height: 16em;
+    }
+    h1{
+        font-size: 6px;
+    }
+    #divImage{
+        margin: 60px 0 0 16px;
+    }
+    #divImg{
+        width: 75px;
+        height: 130px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 90px;
+        position: absolute;
+        left: -100px;
+        top: 250px;
+    }
+    #myHand2{
+        width: 90px;
+        position: absolute;
+        left: -100px;
+        top: 250px;
+    }
+    #flip {
+        position: absolute;
+        top: 100px;
+        left: -62px;
+        padding: 5px;
+        width: 33px;
+        height: 20px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 17px;
+        left: -63px;
+        width: 2rem;
+        height: 2rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 3.25em;
+        height: 3.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -40px;
+        font-size: 15px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px){
+    .container{
+        width: 12em;
+        height: 12em;
+    }
+    .container::before{
+        width: 13em;
+        height: 13em;
+    }
+    h1{
+        font-size: 3px;
+    }
+    #divImage{
+        margin: 60px 0 0 16px;
+    }
+    #divImg{
+        width: 48px;
+        height: 100px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 70px;
+        position: absolute;
+        left: -80px;
+        top: 200px;
+    }
+    #myHand2{
+        width: 70px;
+        position: absolute;
+        left: -80px;
+        top: 200px;
+    }
+    #flip {
+        position: absolute;
+        top: 90px;
+        left: -52px;
+        padding: 5px;
+        width: 30px;
+        height: 20px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 10px;
+        left: -53px;
+        width: 2rem;
+        height: 2rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 8px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 4.25em;
+        height: 4.25em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -25px;
+        font-size: 12px;
+        width: 100%;
+        height: 25px;
+    }  
+}
+
+@media screen and (min-width: 200px) and (max-width: 299px){
+    .container{
+        width: 8em;
+        height: 9em;
+    }
+    .container::before{
+        width: 8.8em;
+        height: 9.5em;
+    }
+    h1{
+        font-size: 1px;
+    }
+    #divImage{
+        margin: 60px 0 0 16px;
+    }
+    #divImg{
+        width: 28px;
+        height: 60px;
+    }
+
+    /*coins and hands*/
+    #myHand1{
+        width: 70px;
+        position: absolute;
+        left: -60px;
+        top: 170px;
+    }
+    #myHand2{
+        width: 70px;
+        position: absolute;
+        left: -60px;
+        top: 170px;
+    }
+    #flip {
+        position: absolute;
+        top: 70px;
+        left: -42px;
+        padding: 5px;
+        width: 30px;
+        height: 20px;
+    }
+      
+    #coin {
+        position: absolute;
+        top: 0px;
+        left: -43px;
+        width: 2rem;
+        height: 2rem;
+        margin: 2rem 0rem;
+    }
+      
+    #coin div {
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        background-size: contain;
+        position: absolute;
+    }
+
+
+    /*Buttons*/
+    button{
+        position: relative;
+        font-size: 4px;
+        font-weight: 600;
+        padding: 10px;
+        margin: 1em 4em 0;
+    }
+    button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 4em;
+        height: 4em;
+    }
+
+
+    /* footer and every other properties in it */ 
+    footer{
+        position: relative;
+        bottom: -25px;
+        font-size: 7px;
+        width: 100%;
+        height: 17px;
+    }  
 }
