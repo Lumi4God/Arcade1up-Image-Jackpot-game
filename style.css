@@ -456,13 +456,13 @@ i{
         width: 110px;
         position: absolute;
         left: -150px;
-        top: 550px;
+        top: 460px;
     }
     #myHand2{
         width: 110px;
         position: absolute;
         left: -150px;
-        top: 550px;
+        top: 460px;
     }
     #flip {
         position: absolute;
@@ -544,13 +544,13 @@ i{
         width: 110px;
         position: absolute;
         left: -150px;
-        top: 550px;
+        top: 470px;
     }
     #myHand2{
         width: 110px;
         position: absolute;
         left: -150px;
-        top: 550px;
+        top: 470px;
     }
     #flip {
         position: absolute;
@@ -632,13 +632,13 @@ i{
         width: 110px;
         position: absolute;
         left: -120px;
-        top: 550px;
+        top: 450px;
     }
     #myHand2{
         width: 110px;
         position: absolute;
         left: -120px;
-        top: 550px;
+        top: 450px;
     }
     #flip {
         position: absolute;
@@ -720,13 +720,13 @@ i{
         width: 90px;
         position: absolute;
         left: -110px;
-        top: 450px;
+        top: 380px;
     }
     #myHand2{
         width: 90px;
         position: absolute;
-        left: -120px;
-        top: 450px;
+        left: -110px;
+        top: 380px;
     }
     #flip {
         position: absolute;
@@ -807,14 +807,14 @@ i{
     #myHand1{
         width: 90px;
         position: absolute;
-        left: -110px;
-        top: 350px;
+        left: -90px;
+        top: 320px;
     }
     #myHand2{
         width: 90px;
         position: absolute;
-        left: -120px;
-        top: 350px;
+        left: -90px;
+        top: 320px;
     }
     #flip {
         position: absolute;
@@ -895,13 +895,13 @@ i{
     #myHand1{
         width: 90px;
         position: absolute;
-        left: -100px;
+        left: -90px;
         top: 250px;
     }
     #myHand2{
         width: 90px;
         position: absolute;
-        left: -100px;
+        left: -90px;
         top: 250px;
     }
     #flip {
@@ -1069,16 +1069,16 @@ i{
 
     /*coins and hands*/
     #myHand1{
-        width: 70px;
+        width: 50px;
         position: absolute;
         left: -60px;
-        top: 170px;
+        top: 130px;
     }
     #myHand2{
-        width: 70px;
+        width: 50px;
         position: absolute;
         left: -60px;
-        top: 170px;
+        top: 140px;
     }
     #flip {
         position: absolute;
