@@ -203,6 +203,3 @@ function flipCoin() {
 
 flipButton.addEventListener('click', flipCoin);
 
-
-
-

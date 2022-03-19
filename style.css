@@ -10,13 +10,35 @@ body{
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background: linear-gradient(
-        90deg, rgba(46,44,45,1) 0%,
-        rgba(66,64,67,1) 100%);
-    /* background-image: url("https://img.myloview.de/fototapeten/abstract-futuristic-black-and-orange-gaming-background-with-glossy-metal-esport-shapes-vector-design-template-technology-concept-can-use-element-game-banner-sport-poster-wallpaper-web-streaming-400-221375104.jpg");
+    /* background: linear-gradient(
+        90deg, rgb(189, 157, 69) 0%,
+        rgb(88, 208, 245) 100%); */
+    background-image: url("https://img.myloview.de/fototapeten/abstract-futuristic-black-and-orange-gaming-background-with-glossy-metal-esport-shapes-vector-design-template-technology-concept-can-use-element-game-banner-sport-poster-wallpaper-web-streaming-400-221375104.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
+}
+
+/*Instructions on the page*/
+p{
+    color: #fff;
+    background-color: black;
+    padding: 5px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+p span{
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    color: black;
+    border: 1px solid rgb(141, 5, 5);
+    border-radius: 5px;
+    padding: 2px;
+    text-transform: capitalize;
 }
 
 /*hand image pop up when it's jackpot*/ 
@@ -1134,3 +1156,6 @@ i{
         height: 17px;
     }  
 }
+
+
+
