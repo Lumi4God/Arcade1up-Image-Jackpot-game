@@ -19,6 +19,24 @@ body{
     background-position: center;
 }
 
+/*Confetti*/
+#win {
+    height: 100%;
+    width: 100vh;
+    background-image: url("images/confetti-20.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#win.hide {
+    display: none
+}
+  
+
 /*Instructions on the page*/
 p{
     color: #fff;

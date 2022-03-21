@@ -35,6 +35,26 @@ bleep6.src = 'audio/lost-out-screw-you.wav';
 var bleep8 = new Audio();
 bleep8.src = 'audio/coins.mp3'
 
+//Confetti
+const win = document.getElementById("win")
+
+let won = false
+
+function toggleWin() {
+  won = !won
+
+  if (won) {
+    win.classList.remove("hide")
+  } else {
+    win.classList.add("hide")
+  }
+  win.style.display = 'block'
+  // setting time-out for the pop up confetti
+  setTimeout(() => {
+    win.style.display = 'none'
+  }, 6000);
+}
+
 // variables
 var youWon = false
 
@@ -128,6 +148,7 @@ function checker([num1, num2, num3]) {
     bleep3.play() // First sound on when player 1 wins 
     bleep4.play() // Second sound on when player 1 wins 
     bleep7.play() // Third sound on when player 1 wins
+    toggleWin() // calling the confetti here
     // console.log(bleep4)
     h1.innerText = `Jackpot! you've won the game`;
 
@@ -152,7 +173,7 @@ function checker([num1, num2, num3]) {
     // setting time-out for the pop up image when 2 images are same
     setTimeout(() => {
       myHandImage.style.display = 'none'
-    }, 3000);
+    }, 2000);
 
   } else {
     h1.innerText = `Try again, ${10 - noOfTries} more ${tryVal}`;
