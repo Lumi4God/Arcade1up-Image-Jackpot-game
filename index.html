@@ -21,52 +21,55 @@
     ></script>
   </head>
 
-  <body>
+  <body id="bod"> <!--  onload="backGr()" -->
       <!--Instructions on the page-->
     <p> <span>To Play!</span> please FLIP the coin and then you can start playing using the PLAY button; HAVE FUN:</p>
 
     <!--Confetti-->
     <div id="win" class="hide"></div>
 
-    <!--Game screen-->
-    <div class="container">
-      <!--messages appear here-->
-      <h1>Jackpot Card Game</h1>
-      <!--card images appear here-->
-      <div id="divImage"></div>
-
-      <!--Coin button-->
-      <div id="coin" class="">
-        <div id="heads" class="heads"></div>
-        <div id="tails" class="tails"></div>
+  <section class="sct">
+      <!--Game screen-->
+      <div class="container">
+        <!--messages appear here-->
+        <h1>Jackpot Card Game</h1>
+        <!--card images appear here-->
+        <div id="divImage"></div>
+  
+        <!--Coin button-->
+        <div id="coin" class="">
+          <div id="heads" class="heads"></div>
+          <div id="tails" class="tails"></div>
+        </div>
+        <!--Coin flip button-->
+        <div id="flip">Flip</div>
+  
+        <!--hands images-->
+        <img id="myHand1" src="images/hand.png" alt="hand holding coins" />
+        <img id="myHand2" src="images/handempty.png" alt="hand holding coins" />
       </div>
-      <!--Coin flip button-->
-      <div id="flip">Flip</div>
+  
+      <!--Game button-->
+      <section>
+        <button
+          disabled
+          id="btn1"
+          onmousedown="bleep.play ()"
+          onclick="generator()">
+          Play
+        </button>
+  
+        <button
+          id="btn2"
+          onmousedown="bleep2.play ()"
+          onclick="imgReset()"
+          type="reset"
+          value="Reset body ">
+          Reset
+        </button>
+      </section>
 
-      <!--hands images-->
-      <img id="myHand1" src="images/hand.png" alt="hand holding coins" />
-      <img id="myHand2" src="images/handempty.png" alt="hand holding coins" />
-    </div>
-
-    <!--Game button-->
-    <section>
-      <button
-        disabled
-        id="btn1"
-        onmousedown="bleep.play ()"
-        onclick="generator()">
-        Play
-      </button>
-
-      <button
-        id="btn2"
-        onmousedown="bleep2.play ()"
-        onclick="imgReset()"
-        type="reset"
-        value="Reset body ">
-        Reset
-      </button>
-    </section>
+  </section>
 
 
     <!--AUTOPLAY SONGS-->

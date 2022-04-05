@@ -13,16 +13,25 @@ body{
     /* background: linear-gradient(
         90deg, rgb(189, 157, 69) 0%,
         rgb(88, 208, 245) 100%); */
-    background-image: url("https://img.myloview.de/fototapeten/abstract-futuristic-black-and-orange-gaming-background-with-glossy-metal-esport-shapes-vector-design-template-technology-concept-can-use-element-game-banner-sport-poster-wallpaper-web-streaming-400-221375104.jpg");
+    /* background-image: url("https://img.myloview.de/fototapeten/abstract-futuristic-black-and-orange-gaming-background-with-glossy-metal-esport-shapes-vector-design-template-technology-concept-can-use-element-game-banner-sport-poster-wallpaper-web-streaming-400-221375104.jpg"); */
+    /* background-image: url("background/11.jpeg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.sct{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    justify-content: center;
 }
 
 /*Confetti*/
 #win {
     height: 100%;
-    width: 100vh;
+    width: 100vw;
     background-image: url("images/confetti-20.gif");
     background-repeat: no-repeat;
     background-position: center;
@@ -76,17 +85,20 @@ p span{
     top: 700px;
 }
 #flip {
+    font-weight: 700;
+    font-size: 20px;
     position: absolute;
     top: 210px;
     left: -460px;
     padding: 10px;
-    background-color: skyblue;
+    background-color: rgb(8, 133, 250);
     width: 80px;
     height: 40px;
     border-radius: 10%;
     /* margin-left: -460px; */
     text-align: center;
     cursor: pointer;
+    mix-blend-mode: screen;
 }
   
   #coin {
@@ -175,12 +187,10 @@ p span{
     );
     box-shadow: 11px 11px 22px #141414, 
        -11px -11px 22px #525252;
-    width: 60em; /*52*/
+    width: 60em;
     height: 31.5em;
     z-index: -1;
-    
-    /*image surrounding / underneath*/
-    background-image: url('background/game-of-games_gross.jpg');
+    background-image: url('background/12.jpg');
     background-repeat: repeat-y;
     background-size: cover;
 }
@@ -234,20 +244,18 @@ button::before{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: inherit;
-    background: linear-gradient(
+    /* background: linear-gradient(
         145deg, #262626, #606060
-    );
+    ); */
+    background-image: url('background/12.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
     box-shadow: 11px 11px 22px #141414, 
        -11px -11px 22px #525252;
     text-shadow: 0 0 5px;
     width: 6.25em;
     height: 6.25em;
     z-index: -1;
-
-    /*image surrounding / underneath*/
-    /* background-image: url('background/game-of-games_gross.jpg');
-    background-repeat: repeat-y;
-    background-size: cover; */
 }
 /*the class was created in Javascript*/
 .button-clicked{
@@ -276,6 +284,13 @@ a{
 }
 i{
     margin-left: 10px;
+}
+i:hover{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px 0px #ffffffa6, 3px 3px 5px 0px #0000004a;
+    width: 30px;
+    height: 23px;
 }
 .fa-linkedin{
     color: rgb(90, 90, 245);
@@ -584,13 +599,13 @@ i{
         width: 110px;
         position: absolute;
         left: -150px;
-        top: 470px;
+        top: 405px;
     }
     #myHand2{
         width: 110px;
         position: absolute;
         left: -150px;
-        top: 470px;
+        top: 405px;
     }
     #flip {
         position: absolute;
@@ -672,13 +687,13 @@ i{
         width: 110px;
         position: absolute;
         left: -120px;
-        top: 450px;
+        top: 405px;
     }
     #myHand2{
         width: 110px;
         position: absolute;
         left: -120px;
-        top: 450px;
+        top: 405px;
     }
     #flip {
         position: absolute;
@@ -760,13 +775,13 @@ i{
         width: 90px;
         position: absolute;
         left: -110px;
-        top: 380px;
+        top: 340px;
     }
     #myHand2{
         width: 90px;
         position: absolute;
         left: -110px;
-        top: 380px;
+        top: 340px;
     }
     #flip {
         position: absolute;
@@ -848,13 +863,13 @@ i{
         width: 90px;
         position: absolute;
         left: -90px;
-        top: 320px;
+        top: 300px;
     }
     #myHand2{
         width: 90px;
         position: absolute;
         left: -90px;
-        top: 320px;
+        top: 300px;
     }
     #flip {
         position: absolute;
@@ -936,13 +951,13 @@ i{
         width: 90px;
         position: absolute;
         left: -90px;
-        top: 250px;
+        top: 240px;
     }
     #myHand2{
         width: 90px;
         position: absolute;
         left: -90px;
-        top: 250px;
+        top: 240px;
     }
     #flip {
         position: absolute;
@@ -1111,13 +1126,13 @@ i{
     #myHand1{
         width: 50px;
         position: absolute;
-        left: -60px;
+        left: -50px;
         top: 130px;
     }
     #myHand2{
         width: 50px;
         position: absolute;
-        left: -60px;
+        left: -50px;
         top: 140px;
     }
     #flip {
