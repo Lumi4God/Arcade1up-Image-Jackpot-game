@@ -230,18 +230,18 @@ const images = [
   'url("./background/1.jpg")',
   'url("./background/2.jpg")',
   'url("./background/3.jpg")',
-  'url("./background/4.jpg")',
+  /* 'url("./background/4.jpg")', */
   'url("./background/5.jpg")',
   'url("./background/6.jpg")',
-  'url("./background/7.jpg")',
-  'url("./background/8.jpg")',
+  /* 'url("./background/7.jpg")', */
+  /* 'url("./background/8.jpg")', */
   'url("./background/9.jpg")',
   'url("./background/10.jpg")',
   'url("./background/11.jpeg")',
   'url("./background/12!.jpg")',
   'url("./background/13.jpg")',
   'url("./background/14.jpg")',
-  'url("./background/15.jpg")',
+  /* 'url("./background/15.jpg")', */
   'url("./background/16.jpg")',
 ]
 const section = document.getElementById('bod')
