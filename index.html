@@ -21,21 +21,25 @@
     ></script>
   </head>
 
-  <body id="bod"> <!--  onload="backGr()" -->
-      <!--Instructions on the page-->
-    <p> <span>To Play!</span> please FLIP the coin and then you can start playing using the PLAY button; HAVE FUN:</p>
+  <body id="bod">
+    <!--  onload="backGr()" -->
+    <!--Instructions on the page-->
+    <p>
+      <span>To Play!</span> please FLIP the coin and then you can start playing
+      using the PLAY button; HAVE FUN:
+    </p>
 
     <!--Confetti-->
     <div id="win" class="hide"></div>
 
-  <section class="sct">
+    <section class="sct">
       <!--Game screen-->
       <div class="container">
         <!--messages appear here-->
         <h1>Jackpot Card Game</h1>
         <!--card images appear here-->
         <div id="divImage"></div>
-  
+
         <!--Coin button-->
         <div id="coin" class="">
           <div id="heads" class="heads"></div>
@@ -43,74 +47,77 @@
         </div>
         <!--Coin flip button-->
         <div id="flip">Flip</div>
-  
+
         <!--hands images-->
         <img id="myHand1" src="images/hand.png" alt="hand holding coins" />
         <img id="myHand2" src="images/handempty.png" alt="hand holding coins" />
       </div>
-  
+
       <!--Game button-->
       <section>
         <button
           disabled
           id="btn1"
           onmousedown="bleep.play ()"
-          onclick="generator()">
+          onclick="generator()"
+        >
           Play
         </button>
-  
+
         <button
           id="btn2"
           onmousedown="bleep2.play ()"
           onclick="imgReset()"
           type="reset"
-          value="Reset body ">
+          value="Reset body "
+        >
           Reset
         </button>
       </section>
-
-  </section>
-
+    </section>
 
     <!--AUTOPLAY SONGS-->
-    <audio src="background-music/Dont kill yourself beat new.mp3" autoplay loop></audio>
+    <audio
+      src="background-music/Dont kill yourself beat new.mp3"
+      autoplay
+      loop
+    ></audio>
 
     <!-- <iframe style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/_YJer2Z1Fug?rel=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
     picture-in-picture" allowfullscreen></iframe> -->
 
-
     <footer>
-        Copyright: LumiCode 100%
-  
-        <a
-          href="https://www.linkedin.com/in/olumide-jones-ab2031215/"
-          target="_blank"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-  
-        <a href="https://github.com/Lumi4God" target="_blank">
-          <i class="fab fa-github-square"></i>
-        </a>
-  
-        <a href="https://www.instagram.com/tribe_of_jones/" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-  
-        <a href="https://www.youtube.com/c/Lumigoodboi" target="_blank">
-          <i class="fab fa-youtube"></i>
-        </a>
-  
-        <a
-          href="https://open.spotify.com/artist/3yqkjMHcqHPOqML0JH89mA"
-          target="_blank"
-          ><i class="fab fa-spotify"></i
-        ></a>
-  
-        <a href="https://www.tiktok.com/@tribe_of_jones" target="_blank">
-          <i class="fab fa-tiktok"></i>
-        </a>
-      </footer>
+      Copyright: LumiCode 100%
+
+      <a
+        href="https://www.linkedin.com/in/olumide-jones-ab2031215/"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="https://github.com/Lumi4God" target="_blank">
+        <i class="fab fa-github-square"></i>
+      </a>
+
+      <a href="https://www.instagram.com/tribe_of_jones/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://www.youtube.com/c/Lumigoodboi" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+
+      <a
+        href="https://open.spotify.com/artist/3yqkjMHcqHPOqML0JH89mA"
+        target="_blank"
+        ><i class="fab fa-spotify"></i
+      ></a>
+
+      <a href="https://www.tiktok.com/@tribe_of_jones" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+    </footer>
 
     <script src="script.js"></script>
   </body>
